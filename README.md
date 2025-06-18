@@ -51,7 +51,7 @@ Copy
 [Payload] b'\\x16\\x03\\x01...'
 Use Ctrl + C to stop capturing packets.
 #
-
+#
 
 
 
@@ -99,7 +99,7 @@ By going through this presentation, users will:
 2. Review each section carefully and participate in the quiz at the end.
 3. Share this with teammates or friends to spread awareness.
 #
-
+#
 
 
 
