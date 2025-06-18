@@ -50,6 +50,10 @@ Copy
 [TCP] 52135 -> 443
 [Payload] b'\\x16\\x03\\x01...'
 Use Ctrl + C to stop capturing packets.
+#
+
+
+
 
 
 # TASK-2 Phishing Awareness Training
@@ -94,6 +98,9 @@ By going through this presentation, users will:
 1. Open the PowerPoint file to view the training slides.
 2. Review each section carefully and participate in the quiz at the end.
 3. Share this with teammates or friends to spread awareness.
+#
+
+
 
 
 
