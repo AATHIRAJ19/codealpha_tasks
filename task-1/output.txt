@@ -1,0 +1,364 @@
+C:\Windows\system32>pip install scapy
+Requirement already satisfied: scapy in c:\users\aathiraj v\appdata\local\programs\python\python313\lib\site-packages (2.6.1)
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Windows\system32>python network_sniffer.py
+Starting packet capture... Press CTRL+C to stop.
+
+[Time] 2025-06-18 22:38:27
+[IP] 192.168.43.57 -> 192.168.43.1
+[UDP] 65355 -> 53
+[Payload] b'\xffK\x005\x00(\x95\x82\x1f\x88\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03ecs\x06office\x03com\x00\x00\x01\x00\x01'
+
+[Time] 2025-06-18 22:38:27
+[IP] 192.168.43.57 -> 192.168.43.1
+[UDP] 64029 -> 53
+[Payload] b'\xfa\x1d\x005\x00(fgS\xb6\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03ecs\x06office\x03com\x00\x00\x1c\x00\x01'
+
+[Time] 2025-06-18 22:38:27
+[IP] 192.168.43.1 -> 192.168.43.57
+[UDP] 53 -> 65355
+[Payload] b'\x005\xffK\x00\xdd\x85\xe4\x1f\x88\x81\x80\x00\x01\x00\x06\x00\x00\x00\x00\x03ecs\x06office\x03com\x00\x00\x01\x00\x01\xc0\x0c\x00\x05\x00\x01\x00\x00\x00i'
+
+[Time] 2025-06-18 22:38:27
+[IP] 192.168.43.1 -> 192.168.43.57
+[UDP] 53 -> 64029
+[Payload] b'\x005\xfa\x1d\x00\xf5\xd6\x95S\xb6\x81\x80\x00\x01\x00\x06\x00\x00\x00\x00\x03ecs\x06office\x03com\x00\x00\x1c\x00\x01\xc0\x0c\x00\x05\x00\x01\x00\x00\x00i'
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[IP] 192.168.43.57 -> 192.168.43.1
+[TCP] 65349 -> 53
+[Payload] b'\xffE\x005)\n\x03\xb8R\xb4\xd5\xd3P\x10\x01\x00\x82\x83\x00\x00\x00'
+
+[Time] 2025-06-18 22:38:27
+[IP] 192.168.43.1 -> 192.168.43.57
+[TCP] 53 -> 65349
+[Payload] b'\x005\xffER\xb4\xd5\xd3)\n\x03\xb9\x80\x10\x01W\xf2\x8f\x00\x00\x01\x01\x05\n)\n\x03\xb8)\n\x03\xb9'
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:27
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:28
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:29
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:30
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:30
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 192.168.43.1
+[UDP] 58955 -> 53
+[Payload] b'\xe6K\x005\x00%P\x84\x0b\xa2\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07chatgpt\x03com\x00\x00\x1c\x00\x01'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 192.168.43.1
+[UDP] 64056 -> 53
+[Payload] b'\xfa8\x005\x00%\x9e\xef\xc4I\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07chatgpt\x03com\x00\x00\x01\x00\x01'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 192.168.43.1
+[UDP] 62224 -> 53
+[Payload] b'\xf3\x10\x005\x00%\xcdP]\x10\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07chatgpt\x03com\x00\x00A\x00\x01'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.1 -> 192.168.43.57
+[UDP] 53 -> 58955
+[Payload] b'\x005\xe6K\x00]\xc2\xde\x0b\xa2\x81\x80\x00\x01\x00\x02\x00\x00\x00\x00\x07chatgpt\x03com\x00\x00\x1c\x00\x01\xc0\x0c\x00\x1c\x00\x01\x00\x00\x00\x1c\x00\x10&'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.1 -> 192.168.43.57
+[UDP] 53 -> 64056
+[Payload] b'\x005\xfa8\x00EJ\xdb\xc4I\x81\x80\x00\x01\x00\x02\x00\x00\x00\x00\x07chatgpt\x03com\x00\x00\x01\x00\x01\xc0\x0c\x00\x01\x00\x01\x00\x00\x00\xad\x00\x04\xac'
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.1 -> 192.168.43.57
+[UDP] 53 -> 62224
+[Payload] b'\x005\xf3\x10\x00b\xbcP]\x10\x81\x80\x00\x01\x00\x00\x00\x01\x00\x00\x07chatgpt\x03com\x00\x00A\x00\x01\xc0\x0c\x00\x06\x00\x01\x00\x00\x00\x05\x001\x06'
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e{\xb0\x00\x00\x00\x00\x80\x02\xfa\xf06\x18\x00\x00\x02\x04\x05\xb4\x01\x03\x03\x08\x01\x01\x04\x02'
+
+[Time] 2025-06-18 22:38:31
+[IP] 172.64.155.209 -> 192.168.43.57
+[TCP] 443 -> 56345
+[Payload] b'\x01\xbb\xdc\x19\xa9\x8e\xef\x1b\xb0\x8e{\xb1\x80\x12\xff\xff\x98\xf2\x00\x00\x02\x04\x05\n\x01\x01\x04\x02\x01\x03\x03\r'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e{\xb1\xa9\x8e\xef\x1cP\x10\x01\x00\xd8 \x00\x00'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e{\xb1\xa9\x8e\xef\x1cP\x10\x01\x00a\xcf\x00\x00\x16\x03\x01\x06\xf4\x01\x00\x06\xf0\x03\x03\xa2\x1dt\xa0\xe3\xbc\xc4\\B3\x0cQb`\xda\r\xf7]\xbb'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e\x80\xbb\xa9\x8e\xef\x1cP\x18\x01\x00-\x81\x00\x00\xf3\x96?r\xe2\xbb\xd0T\\\x14\xc6\x95P\x93\x05\xeb\xd0\xa3}j+\xcah\x9a\xa3v\x9a\xba#i'
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[IP] 172.64.155.209 -> 192.168.43.57
+[TCP] 443 -> 56345
+[Payload] b'\x01\xbb\xdc\x19\xa9\x8e\xef\x1c\xb0\x8e\x82\xaaP\x10\x00\x11\xd2\x16\x00\x00'
+
+[Time] 2025-06-18 22:38:31
+[IP] 172.64.155.209 -> 192.168.43.57
+[TCP] 443 -> 56345
+[Payload] b'\x01\xbb\xdc\x19\xa9\x8e\xef\x1c\xb0\x8e\x82\xaaP\x10\x00\x11\x02\xb9\x00\x00\x16\x03\x03\x04\xba\x02\x00\x04\xb6\x03\x03\x19\x13\xf1\xf3\xd9T\xae\xbb\xc4|\xd6\x0b\xba\xfe\xf7[`s\xc4'
+
+[Time] 2025-06-18 22:38:31
+[IP] 172.64.155.209 -> 192.168.43.57
+[TCP] 443 -> 56345
+[Payload] b'\x01\xbb\xdc\x19\xa9\x8e\xf4&\xb0\x8e\x82\xaaP\x10\x00\x11\x02\x15\x00\x00\xe7\x9b\xbf@\x85%\xd67N\x03\xc1\t>c\x8e\x83?5dy\x95\xbf\xb9\xdb\xeb\xd0E\x92:\x97'
+
+[Time] 2025-06-18 22:38:31
+[IP] 172.64.155.209 -> 192.168.43.57
+[TCP] 443 -> 56345
+[Payload] b'\x01\xbb\xdc\x19\xa9\x8e\xf90\xb0\x8e\x82\xaaP\x18\x00\x11\xb7\xa4\x00\x00\xb6\x1f\xf2\xc1\x9a\xf3\x0bXvm\x078g\xdf\x81+\xfd\x10#k<\x1d\x9f\x17T\xcd\xeb\xb9:\xbe'
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e\x82\xaa\xa9\x8e\xfc\xa2P\x10\x01\x00\xc3\xa1\x00\x00'
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e\x82\xaa\xa9\x8e\xfc\xa2P\x18\x01\x008\xf9\x00\x00\x14\x03\x03\x00\x01\x01\x17\x03\x03\x005\xb7 \x01Q{\x8bD\xc1\x1d{\x125\xaa.F\xe6\x7f\x06\xb9'
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:31
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[IP] 172.64.155.209 -> 192.168.43.57
+[TCP] 443 -> 56345
+[Payload] b'\x01\xbb\xdc\x19\xa9\x8e\xfc\xa2\xb0\x8e\x82\xeaP\x18\x00\x11A\xf1\x00\x00\x17\x03\x03\x01\xcd\xf0\x93\x80\xdc\x0e\xcb\xab\xc5\xf7\xed\xd3\xaa~!\x95\x01\xeeVT\xac\xef?\xf6\xa4\xbe'
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[IP] 192.168.43.57 -> 172.64.155.209
+[TCP] 56345 -> 443
+[Payload] b'\xdc\x19\x01\xbb\xb0\x8e\x82\xea\xa9\x8e\xfe\xb2P\x10\x00\xfe\xc1S\x00\x00'
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+[Time] 2025-06-18 22:38:32
+[Non-IP Packet]
+
+C:\Windows\system32>
+C:\Windows\system32>
