@@ -4,22 +4,17 @@ python
 import os
 import sqlite3
 
-# Hardcoded credentials
 USERNAME = "admin"
 PASSWORD = "123456"
 
-# Unsafe input usage
 user_input = input("Enter your username: ")
 query = "SELECT * FROM users WHERE username = '" + user_input + "'"
 
-# Dangerous function usage
 eval("print('Hello " + user_input + "')")
 
-# No input validation
 age = input("Enter your age: ")
 print(f"You are {age} years old.")
 
-# Database connection
 conn = sqlite3.connect('users.db')
 cursor = conn.cursor()
 cursor.execute(query)
