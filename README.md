@@ -1,10 +1,5 @@
 # TASK-1 Basic Network Sniffer
 
-# Re-create README.md file after kernel reset
-
-readme_content = """# 🕵️‍♂️ Network Packet Sniffer with Scapy (Windows)
-
-This Python-based network sniffer captures and analyzes live network traffic using the Scapy library. It helps you understand how data flows through a network by printing essential information like IP addresses, protocols, ports, and packet payloads.
 
 ## 📌 Features
 
@@ -33,5 +28,26 @@ This Python-based network sniffer captures and analyzes live network traffic usi
 
 2.  Install required Python package  
    Open Command Prompt and run:
-   ```bash
    pip install scapy
+
+3. Install Npcap
+Download from: https://npcap.com/
+Enable this option during install:
+✅ Install Npcap in WinPcap API-compatible Mode
+
+4.  Run the Script
+Open Command Prompt as Administrator
+Navigate to the directory containing network_sniffer.py
+
+python network_sniffer.py
+
+Example Output
+csharp
+
+Copy
+[Time] 2025-06-08 14:35:22
+[IP] 192.168.1.100 -> 142.250.191.78
+[TCP] 52135 -> 443
+[Payload] b'\\x16\\x03\\x01...'
+Use Ctrl + C to stop capturing packets.
+"""
